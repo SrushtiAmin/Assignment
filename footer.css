@@ -362,7 +362,7 @@ line-height: 20px;
     background-repeat: no-repeat;
     background-size: cover;
 }*/}
-.footer-main {
+.footer-main{
     background-color: var(--black);
     color: var(--white);
     padding: 20px;
@@ -424,6 +424,12 @@ line-height: 20px;
     justify-content:space-between;
     flex-wrap: wrap;
     
+}
+.footer-heading{
+    color: var(--white);
+    font-weight: bold;
+    font-size: large;
+    gap: 10px;
 }
 .footer-bottom{
     display: flex;
