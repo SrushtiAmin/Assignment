@@ -384,7 +384,7 @@ line-height: 20px;
 .footer-description{
     font-size: 15px;
     padding-right: 20px;
-    
+    margin-top: 10px ;
     
 }
 .footer-button {
@@ -395,6 +395,7 @@ line-height: 20px;
     cursor: pointer;
     border-radius: 100px ;
     padding: 10px;
+    margin-top: -40px;
   }
 .footer-middle{
     display: flex;
@@ -425,6 +426,23 @@ line-height: 20px;
     flex-wrap: wrap;
     
 }
+.footer-column h4{
+    color: var(--white);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+.footer-column li{
+    padding: 10px;
+    font-size: 15px;
+
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
 .footer-heading{
     color: var(--white);
     font-weight: bold;
@@ -433,4 +451,10 @@ line-height: 20px;
 }
 .footer-bottom{
     display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.footer-icons{
+display: flex;
+gap: 20px;
 }
